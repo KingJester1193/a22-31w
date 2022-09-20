@@ -15,6 +15,7 @@
 
 
 <?php get_header(); ?>
+
  
  <!DOCTYPE html>
  <html lang="en">
@@ -45,7 +46,7 @@ h1{
         /* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
-                the_title( "<h1>", "</h1>");
+                the_title( "<h2>", "</h2>");
                 the_content(null, true);
             endwhile;
         endif;
@@ -53,6 +54,8 @@ h1{
     
     </main>
  </body>
+
+ <?php get_footer(); ?>
  </html>
 
 
