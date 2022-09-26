@@ -340,6 +340,11 @@ h2, h3, h4, h5, h6 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+  color: #bf6e3f;
+  text-decoration: none;
+}
+
 body {
   background-color: #e8e2c4;
 }/*# sourceMappingURL=style.css.map */
