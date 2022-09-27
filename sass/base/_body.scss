@@ -1,10 +1,16 @@
+.trace{
+    background-color: pink;
+}
+
 body{
     background-color: $couleur_background-body;
     
 }
 
-article{
-    margin: 0 $margin_meta ;
+main{
+    margin: 0 $margin_meta $espacement_moyen $margin_meta;
+
+
 }
 
 

@@ -351,10 +351,14 @@ a {
   text-align: center;
 }
 
+.trace {
+  background-color: pink;
+}
+
 body {
   background-color: #f0ebd4;
 }
 
-article {
-  margin: 0 100px;
+main {
+  margin: 0 100px 80px 100px;
 }/*# sourceMappingURL=style.css.map */

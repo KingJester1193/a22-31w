@@ -12,7 +12,7 @@
  * @package underscore
  */
 ?>
-
+<h1 class="trace">front-page.php</h1>
 
 <?php get_header(); ?>
 
@@ -46,9 +46,16 @@ h1{
                 if ( have_posts() ) : 
                 /* Start the Loop */
                     while ( have_posts() ) :
-                        the_post();
-                        the_title( "<h2>", "</h2>");
+                        the_post();?>
+                        <h2><a href="<?php the_permalink();?> "><?php the_title();?></a></h2>
+                        <?php
                         the_content(null, true);
+                        the_date();
+                        the_time();
+                        the_author();
+                        the_weekday();
+                        the_category();
+                    
                     endwhile;
                 endif;
             ?>
