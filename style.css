@@ -342,11 +342,6 @@ h2, h3, h4, h5, h6 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a {
-  color: #bf6e3f;
-  text-decoration: none;
-}
-
 .site-description {
   text-align: center;
 }
@@ -361,4 +356,19 @@ body {
 
 main {
   margin: 0 100px 80px 100px;
+}
+
+small, pre, code, span {
+  display: block;
+  font-size: 14px;
+}
+
+span {
+  color: #9f9995;
+  font-style: italic;
+}
+
+a {
+  color: #bf6e3f;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
