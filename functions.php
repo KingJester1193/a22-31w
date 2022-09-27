@@ -54,3 +54,11 @@ add_action( 'after_setup_theme', 'underscore_setup' );
         }
         add_action( 'wp_enqueue_scripts', 'underscore_scripts' );
         
+
+        function menuPrimaire_register_nav_menu(){
+            register_nav_menus( array(
+                'menu_primaire' => __( 'Menu primaire', 'text_domain' ),
+               
+            ) );
+        }
+        add_action( 'after_setup_theme', 'menuPrimaire_register_nav_menu', 0 );
