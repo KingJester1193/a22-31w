@@ -41,17 +41,18 @@ h1{
  </head>
  <body>
     <main>
-    <?php
-		if ( have_posts() ) : 
-        /* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-                the_title( "<h2>", "</h2>");
-                the_content(null, true);
-            endwhile;
-        endif;
-    ?>
-    
+        <article>
+            <?php
+                if ( have_posts() ) : 
+                /* Start the Loop */
+                    while ( have_posts() ) :
+                        the_post();
+                        the_title( "<h2>", "</h2>");
+                        the_content(null, true);
+                    endwhile;
+                endif;
+            ?>
+        </article>
     </main>
  </body>
 

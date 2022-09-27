@@ -1,7 +1,10 @@
 body{
     background-color: $couleur_background-body;
-    margin-left: $margin_meta;
+    
 }
 
+article{
+    margin: 0 $margin_meta ;
+}
 
 

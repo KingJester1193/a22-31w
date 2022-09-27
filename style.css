@@ -335,6 +335,7 @@ html {
 h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 45px;
+  text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
@@ -346,7 +347,14 @@ a {
   text-decoration: none;
 }
 
+.site-description {
+  text-align: center;
+}
+
 body {
-  background-color: #f5ecbe;
-  margin-left: 100px;
+  background-color: #f0ebd4;
+}
+
+article {
+  margin: 0 100px;
 }/*# sourceMappingURL=style.css.map */
