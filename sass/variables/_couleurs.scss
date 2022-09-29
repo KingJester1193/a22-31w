@@ -1,10 +1,45 @@
+
+//------------------------------couleur background---------------------------------
+
 $couleur_background-body : #f0ebd4;
 $couleur_background-nav:  #2ac991;
 
+//---------------------------------------------------------
+
+
+
+//------------------------------couleur police---------------------------------
 
 $couleur_police-nav:#bf6e3f;
 $couleur_police-dateStamp : #9f9995;
+$color__link-visited :    #5537fc;  
+
+//-------------------------------------------------------------
 
 
-$color__link-visited :    #5537fc;   ;
-$couleur_background-nav: #2ac991;
+
+
+//------------------------------couleur boutton---------------------------------
+    $color_border-button :  #000000;
+    $color_backgroud-button :  #8c8a9a;
+    $color__border-button-focus : #fc7537;
+    $color__border-button-hover : #2ac991;
+
+//-----------------------------------------------------------
+
+
+
+//------------------------------couleur fields input text---------------------------------
+
+$color__text-input : #000000;
+$color_border-input :#fc7537 ;
+$color_text-input-focus:#fc7537 ;
+
+//-----------------------------------------------------------
+
+
+
+
+//------------------------------couleur hr (ligne horizontale)---------------------------------
+
+$color__background-hr : #f6976a ;
