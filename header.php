@@ -21,21 +21,22 @@
 </head>
 
 <body <?php body_class(); ?>>
+<?php wp_nav_menu(array("menu" => "primaire"));?>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-
+<!-- 
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			</h1>
+			</h1> -->
 
 			<?php
 				$underscore_description = get_bloginfo( 'description', 'display' );
 				if ( $underscore_description || is_customize_preview() ) : ?>
 
-				<h3 class="site-description"><?php echo $underscore_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h3>
+				<h1 class="site-description"><?php echo $underscore_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h1>
 				<?php endif;?>
 		</div><!-- .site-branding -->
-		<?php wp_nav_menu(array("menu" => "primaire"));?>
+		
 	</header><!-- #masthead -->

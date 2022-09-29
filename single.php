@@ -14,9 +14,6 @@
 ?>
 
 
-<h1 class="trace">single.php</h1>
-
-
 <?php get_header(); ?>
 
  
@@ -56,12 +53,10 @@ h1{
                             <small>
                                <span> <?php the_weekday();?></span>
                                 <span><?php the_date();?></span>
-                                <span><?php the_time() ?>;</span>
+                                <span><?php the_time();?></span>
                             </small>
                             <code><?php the_author(); ?></code>
-                            <pre>
-                               <?php the_category();?>
-                            </pre>
+                            <pre><?php the_category();?></pre>
                         </section>
                         <?php
                     endwhile;

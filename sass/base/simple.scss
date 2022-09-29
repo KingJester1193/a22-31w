@@ -33,13 +33,15 @@ address {
 }
 
 pre {
-	background: $color__background-pre;
+	
 	font-family: $font__pre;
 	line-height: $font__line-height-pre;
 	margin-bottom: 1.6em;
 	max-width: 100%;
-	overflow: auto;
-	padding: 1.6em;
+	overflow: hidden;
+	padding-bottom: $espacement_mini;
+	border-bottom: 1px solid $color__background-pre;
+
 }
 
 code,

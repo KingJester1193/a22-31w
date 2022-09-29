@@ -1,0 +1,26 @@
+.menu-primaire-container{
+    z-index: 10;
+    margin-top : $espacement_mini ;
+    margin-right: $espacement_mini ;
+    margin-bottom: $espacement_moyen;
+    position: sticky; 
+    
+
+    .menu{
+        //ul
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    } 
+    .menu-item{
+        //li
+    }   
+    a{
+        border-bottom: 1px solid $color__nav-a-underline;
+        padding-bottom: $espacement_mini;
+    }
+       
+    
+}
+//transformation css
+

@@ -12,7 +12,8 @@ $couleur_background-nav:  #2ac991;
 
 $couleur_police-nav:#bf6e3f;
 $couleur_police-dateStamp : #9f9995;
-$color__link-visited :    #5537fc;  
+$color__link-visited :   #bf6e3f;  
+$color__link-hover :  #bf6e3f;
 
 //-------------------------------------------------------------
 
@@ -20,8 +21,8 @@ $color__link-visited :    #5537fc;
 
 
 //------------------------------couleur boutton---------------------------------
-    $color_border-button :  #000000;
-    $color_backgroud-button :  #8c8a9a;
+    $color__border-button :  #000000;
+    $color__background-button :  #8c8a9a;
     $color__border-button-focus : #fc7537;
     $color__border-button-hover : #2ac991;
 
@@ -32,8 +33,8 @@ $color__link-visited :    #5537fc;
 //------------------------------couleur fields input text---------------------------------
 
 $color__text-input : #000000;
-$color_border-input :#fc7537 ;
-$color_text-input-focus:#fc7537 ;
+$color__border-input :#fc7537 ;
+$color__text-input-focus:#fc7537 ;
 
 //-----------------------------------------------------------
 
@@ -43,6 +44,8 @@ $color_text-input-focus:#fc7537 ;
 //------------------------------couleur hr (ligne horizontale)---------------------------------
 
 $color__background-hr : #f6976a ;
+
+$color__nav-a-underline:  #2ac991;
 
 //-----------------------------------------------------------
 

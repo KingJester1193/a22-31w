@@ -34,5 +34,14 @@ Text Domain: underscore
 @import "base/body";
 @import "base/simple";
 @import "base/links";
+@import"base/buttons";
+@import "base/hr";
+@import "base/fields";
+@import "base/lists";
+@import "base/media";
 
 
+
+//import composants
+
+@import "composants/nav_principale";
