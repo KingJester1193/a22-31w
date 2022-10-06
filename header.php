@@ -21,10 +21,17 @@
 </head>
 
 <body <?php body_class(); ?>>
-<?php wp_nav_menu(array("menu" => "primaire"));?>
+
+<?php wp_nav_menu(array(
+	"menu" => "primaire",
+	 "container" => "nav",
+	"container_class" => "menu__primaire"));
+?>
+
+
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site__header">
 		<div class="site-branding">
 <!-- 
 			<h1 class="site-title">
@@ -40,3 +47,7 @@
 		</div><!-- .site-branding -->
 		
 	</header><!-- #masthead -->
+
+	<aside class="widget__area">
+			<h2>Menu secondaire</h2>
+	</aside>

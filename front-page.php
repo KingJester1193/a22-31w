@@ -40,7 +40,7 @@ h1{
     <title>Document julien P</title>
  </head>
  <body>
-    <main>
+    <main class="site__main">
       
             <?php
                 if ( have_posts() ) : 

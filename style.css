@@ -565,19 +565,21 @@ figure {
   margin: 1em 0;
 }
 
-.menu-primaire-container {
+.menu__primaire {
   z-index: 10;
   margin-top: 15px;
   margin-right: 15px;
   margin-bottom: 80px;
   position: sticky;
 }
-.menu-primaire-container .menu {
+.menu__primaire .menu {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
-.menu-primaire-container a {
+.menu__primaire a {
   border-bottom: 1px solid #2ac991;
   padding-bottom: 15px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+@impo;/*# sourceMappingURL=style.css.map */
