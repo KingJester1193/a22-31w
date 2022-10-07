@@ -42,7 +42,7 @@
 				$underscore_description = get_bloginfo( 'description', 'display' );
 				if ( $underscore_description || is_customize_preview() ) : ?>
 
-				<h1 class="site-description"><?php echo $underscore_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h1>
+				<h1 class="site__description"><?php echo $underscore_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h1>
 				<?php endif;?>
 		</div><!-- .site-branding -->
 		
@@ -50,4 +50,11 @@
 
 	<aside class="widget__area">
 			<h2>Menu secondaire</h2>
+			<?php wp_nav_menu(array(
+				"menu"=> "aside",
+				"container" => "nav",
+				"container_class" => "menu__aside"
+
+			));
+			?>
 	</aside>
