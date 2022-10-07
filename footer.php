@@ -11,7 +11,7 @@
 
 ?>
 
-	<footer>
+	<footer class="site__footer">
 		<p>Un footer badass</p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

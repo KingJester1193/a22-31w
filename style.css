@@ -595,7 +595,7 @@ figure {
 
 .site__footer {
   text-align: center;
-  background-color: #bf6e3f;
+  background-color: rgba(191, 110, 63, 0.8156862745);
 }
 
 .site__header {
