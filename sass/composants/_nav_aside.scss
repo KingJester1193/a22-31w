@@ -1,3 +1,22 @@
 .menu__aside{
-    
+
+   ul{
+                    padding:0px;
+                }
+
+
+    .menu{
+            text-decoration: none;
+            list-style-type: none;
+         
+           
+
+            li{
+                margin-bottom: $espacement_mini;
+
+           
+            }
+
+    }
+   
 }

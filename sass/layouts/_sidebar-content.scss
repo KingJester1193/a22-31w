@@ -1,4 +1,4 @@
-
+ 
 .site__header {
 	grid-area: header;
 }
@@ -10,6 +10,14 @@
 
 .widget__area {
 	grid-area: sidebar;
+	border-right: 1px solid $color__nav-a-underline;
+
+	h2{
+		margin-bottom: $espacement_petit;
+		text-align: center;
+
+
+	}
 }
 
 .site__footer {
@@ -31,14 +39,14 @@
 		
 
 
-	//@media screen and (min-width : 700px){ 
+	@media screen and (min-width : 700px){ 
 			
-				// grid-template-columns: ($size__site-sidebar) auto;
-				// grid-template-areas:
-				// 	"header header"
-				// 	"sidebar main"
-				// 	"footer footer";
-				// }
+				grid-template-columns: ($size__site-sidebar) auto;
+				grid-template-areas:
+					"header header"
+					"sidebar main"
+					"footer footer";
+				}
 	
 		 
 		}
