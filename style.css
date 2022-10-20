@@ -565,19 +565,19 @@ figure {
   margin: 1em 0;
 }
 
-.menu__primaire {
+.menu__principal {
   z-index: 10;
   margin-top: 15px;
   margin-right: 15px;
   margin-bottom: 80px;
   position: sticky;
 }
-.menu__primaire .menu {
+.menu__principal .menu {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
-.menu__primaire a {
+.menu__principal a {
   border-bottom: 1px solid #2ac991;
   padding-bottom: 15px;
 }

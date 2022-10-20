@@ -23,9 +23,9 @@
 <body <?php body_class(); ?>>
 
 <?php wp_nav_menu(array(
-	"menu" => "primaire",
+	"menu" => "principal",
 	 "container" => "nav",
-	"container_class" => "menu__primaire"));
+	"container_class" => "menu__principal"));
 ?>
 
 

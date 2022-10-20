@@ -55,13 +55,13 @@ add_action( 'after_setup_theme', 'underscore_setup' );
         add_action( 'wp_enqueue_scripts', 'underscore_scripts' );
         
 
-        function menuPrimaire_register_nav_menu(){
+        function menuPrincipal_register_nav_menu(){
             register_nav_menus( array(
-                'menu_primaire' => __( 'Menu primaire', 'text_domain' ),
+                'menu_principal' => __( 'Menu principal', 'text_domain' ),
                
             ) );
         }
-        add_action( 'after_setup_theme', 'menuPrimaire_register_nav_menu', 0 );
+        add_action( 'after_setup_theme', 'menuPrincipal_register_nav_menu', 0 );
 
 
         function igc31w_filtre_choix_menu($obj_menu, $arg){
