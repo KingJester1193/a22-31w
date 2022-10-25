@@ -14,12 +14,15 @@
 background-color: $couleur_background-footer;
 }
 .site__footer div{
- // width: 20%;
-  border: 1px solid black;
+ margin-right: 20px;
+
   color: $color__police-footer;
   flex:1;
 }
 .site__footer img{
   position: relative;
   object-fit:cover ;
+}
+.lien-footer{
+  margin-bottom: $espacement_mini;
 }

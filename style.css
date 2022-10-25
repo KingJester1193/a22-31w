@@ -604,7 +604,7 @@ figure {
 }
 
 .site__footer div {
-  border: 1px solid black;
+  margin-right: 20px;
   color: #ffffff;
   flex: 1;
 }
@@ -612,6 +612,10 @@ figure {
 .site__footer img {
   position: relative;
   object-fit: cover;
+}
+
+.lien-footer {
+  margin-bottom: 15px;
 }
 
 .site__header {

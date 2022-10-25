@@ -89,12 +89,12 @@ add_action( 'after_setup_theme', 'underscore_setup' );
 /////-------------------------- widget sidebar   ----------------------
         add_action( 'widgets_init', 'my_register_sidebars' );
 function my_register_sidebars() {
-	/* Register the 'primary' sidebar. */
+	/* Register the 'footer-1' sidebar. */
 	register_sidebar(
 		array(
-			'id'            => 'primary',
-			'name'          => __( 'Primary Sidebar' ),
-			'description'   => __( 'A short description of the sidebar.' ),
+			'id'            => 'footer-1',
+			'name'          => __( 'Footer Sidebar1' ),
+			'description'   => __( 'premier footer sidebar.' ),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h3 class="widget-title">',
@@ -102,4 +102,19 @@ function my_register_sidebars() {
 		)
 	);
 	/* Repeat register_sidebar() code for additional sidebars. */
+
+
+    register_sidebar(
+		array(
+			'id'            => 'footer-2',
+			'name'          => __( 'Footer Sidebar2' ),
+			'description'   => __( 'deuxieme footer sidebar.' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
 }
+
+
