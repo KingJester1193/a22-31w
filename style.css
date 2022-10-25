@@ -596,8 +596,22 @@ figure {
 }
 
 .site__footer {
+  position: sticky;
+  display: flex;
   text-align: center;
+  justify-content: space-around;
   background-color: #691a8b;
+}
+
+.site__footer div {
+  border: 1px solid black;
+  color: #ffffff;
+  flex: 1;
+}
+
+.site__footer img {
+  position: relative;
+  object-fit: cover;
 }
 
 .site__header {

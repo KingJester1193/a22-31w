@@ -1,6 +1,25 @@
-.site__footer{
-  text-align: center;
-    background-color: $couleur_background-footer;
-  // width: 100%;
+// .site__footer{
+//  
     
+//   // width: 100%;
+    
+// }
+
+.site__footer{
+  position: sticky;
+  display: flex; 
+  text-align: center;
+ // flex-direction: column;
+  justify-content: space-around;
+background-color: $couleur_background-footer;
+}
+.site__footer div{
+ // width: 20%;
+  border: 1px solid black;
+  color: $color__police-footer;
+  flex:1;
+}
+.site__footer img{
+  position: relative;
+  object-fit:cover ;
 }
