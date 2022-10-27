@@ -11,12 +11,11 @@
   text-align: center;
  // flex-direction: column;
   justify-content: space-evenly;
-background-color: $couleur_background-footer;
-align-items: center;
+  background-color: red;
+  align-items: center;
 }
 .site__footer div{
- margin-right: 20px;
-
+  margin-right: 20px;
   color: $color__police-footer;
   flex:1;
 }

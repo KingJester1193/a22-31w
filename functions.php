@@ -139,6 +139,18 @@ function my_register_sidebars() {
 			'after_title'   => '</h3>',
 		)
 	);
+
+    register_sidebar(
+		array(
+			'id'            => 'aside_video',
+			'name'          => __( 'aside_video' ),
+			'description'   => __( 'troisieme footer sidebar.' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
 }
 
 

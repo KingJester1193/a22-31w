@@ -50,9 +50,9 @@
 
 	<aside class="widget__area">
 
-	<div id="sidebar-nav-recherche" class="bar_recherche">
+	<div id="sidebar-nav-recherche">
 	<?php dynamic_sidebar( 'sidebar-nav-recherche' ); ?>
-</div>
+	</div>
 
 
 			<?php wp_nav_menu(array(
@@ -62,4 +62,16 @@
 
 			));
 			?>
+
+<div id="aside_video" >
+	<?php dynamic_sidebar( 'aside_video' ); ?>
+</div>
+
+
+
+
+
+
+
+
 	</aside>
