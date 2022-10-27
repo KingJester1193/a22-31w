@@ -10,8 +10,9 @@
   display: flex; 
   text-align: center;
  // flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 background-color: $couleur_background-footer;
+align-items: center;
 }
 .site__footer div{
  margin-right: 20px;
@@ -25,4 +26,17 @@ background-color: $couleur_background-footer;
 }
 .lien-footer{
   margin-bottom: $espacement_mini;
+}
+
+
+
+.citation p{
+  color:$couleur_police-nav-h1;
+  font-size: $police_taille-sous-titre;
+}
+
+
+.citation cite{
+  color: $color__police-footer ;
+  font-size: $police_taille-text;
 }

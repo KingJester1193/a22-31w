@@ -13,17 +13,16 @@
 
 	<footer class="site__footer">
 
-<div><?php get_sidebar( 'footer-1' ); ?></div>
 
-	<div><?php get_sidebar( 'footer-2' ); ?></div>
-
-	
-	<div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat quisquam pariatur dolores nostrum molestiae vitae aliquid nobis veniam, cum libero, vel amet! Mollitia quam, optio enim tenetur culpa omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque laboriosam dicta repellendus tempora ut adipisci eveniet placeat. Nam reiciendis alias fugit consequatur adipisci maiores dolores ducimus repellendus debitis voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quo, enim ut impedit magnam rerum architecto omnis ipsum labore modi cum! Recusandae minus dolorum saepe cum unde expedita fugiat neque.</p></div>
-	<div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat quisquam pariatur dolores nostrum molestiae vitae aliquid nobis veniam, cum libero, vel amet! Mollitia quam, optio enim tenetur culpa omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque laboriosam dicta repellendus tempora ut adipisci eveniet placeat. Nam reiciendis alias fugit consequatur adipisci maiores dolores ducimus repellendus debitis voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quo, enim ut impedit magnam rerum architecto omnis ipsum labore modi cum! Recusandae minus dolorum saepe cum unde expedita fugiat neque.</p></div>
+	<div class="citationWidget"><?php get_sidebar( 'footer-3' ); ?></div>
 
 
 
-		
+     <div class="logoWidget"><?php get_sidebar( 'footer-2' ); ?></div>
+
+
+
+	<div class="lienWidget"><?php get_sidebar( 'footer-1' ); ?></div>	
 		
 	</footer><!-- #colophon -->
 </div><!-- #page -->
