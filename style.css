@@ -423,8 +423,20 @@ big {
   font-size: 125%;
 }
 
+.menu a {
+  text-decoration: none;
+}
+.menu a:hover, .menu a:focus, .menu a:active {
+  color: #bf6e3f;
+}
+.menu a:focus {
+  outline: thin dotted;
+}
+.menu a:hover, .menu a:active {
+  outline: 0;
+}
+
 a {
-  color: black;
   text-decoration: none;
 }
 a:visited {
@@ -598,6 +610,7 @@ figure {
 }
 .menu__aside .menu li {
   margin-bottom: 15px;
+  font-size: 18px;
 }
 
 .site__footer {
@@ -627,7 +640,7 @@ figure {
 
 .citation cite {
   color: #ffffff;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .menu {
@@ -650,10 +663,6 @@ figure {
 
 .widget__area {
   grid-area: sidebar;
-}
-.widget__area h2 {
-  margin-bottom: 40px;
-  text-align: center;
 }
 
 .site__footer {
