@@ -49,6 +49,12 @@
 	</header><!-- #masthead -->
 
 	<aside class="widget__area">
+
+	<div id="sidebar-nav-recherche" class="bar_recherche">
+	<?php dynamic_sidebar( 'sidebar-nav-recherche' ); ?>
+</div>
+
+
 			<?php wp_nav_menu(array(
 				"menu"=> "aside",
 				"container" => "nav",
