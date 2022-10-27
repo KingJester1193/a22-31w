@@ -1,22 +1,29 @@
 .menu__aside{
-
-   ul{
-                    padding:0px;
-                }
-
+    
+         //background-color: $couleur_background-aside-nav;
+      
+        margin-left: 5px;
 
     .menu{
+
+
             text-decoration: none;
             list-style-type: none;
-         
-           
+            color: $color__police-nav;
 
-            li{
-                margin-bottom: $espacement_mini;
+             background-color: $couleur_background-aside-nav;
+             padding:$espacement_petit;
+             border-radius: 20px;
+             box-shadow: inset 0 0 20px #691a8b;
 
-           
-            }
 
+                li{
+                    margin-bottom: $espacement_mini;
+                    
+                
+            
+                }
+            
     }
-   
+          
 }

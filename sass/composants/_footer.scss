@@ -25,7 +25,8 @@ align-items: center;
   object-fit:cover ;
 }
 .lien-footer{
-  margin-bottom: $espacement_mini;
+ 
+
 }
 
 
@@ -39,4 +40,12 @@ align-items: center;
 .citation cite{
   color: $color__police-footer ;
   font-size: $police_taille-text;
+}
+.menu{
+    list-style: none;
+   margin-bottom: $espacement_petit;
+}
+
+.menu li{
+  margin-bottom: $espacement_mini;
 }
