@@ -424,7 +424,7 @@ big {
 }
 
 .menu a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .menu a:hover, .menu a:focus, .menu a:active {
@@ -439,9 +439,7 @@ big {
 
 a {
   text-decoration: none;
-}
-a:visited {
-  color: black;
+  color: #bf6e3f;
 }
 a:hover, a:focus, a:active {
   color: #bf6e3f;
@@ -595,6 +593,7 @@ figure {
 .menu__principal a {
   border-bottom: 1px solid #691a8b;
   padding-bottom: 15px;
+  color: #bf6e3f;
 }
 
 .menu__aside {
@@ -629,7 +628,7 @@ figure {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
-  background-color: red;
+  background-color: #691a8b;
   align-items: center;
 }
 

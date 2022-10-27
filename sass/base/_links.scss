@@ -4,10 +4,11 @@
 
 	a {
 
-		color: black;
+		color: #ffff;
 		text-decoration: none;
 		&:visited {
 		// color: $color__link-visited;
+		
 		}
 	
 	
@@ -44,9 +45,7 @@ a {
 
 
 	text-decoration: none;
-	&:visited {
-	  color: $color__link-visited;
-	}
+	color: $couleur_police-nav-h1;
 
 
 
