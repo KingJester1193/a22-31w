@@ -48,7 +48,7 @@
 		
 	</header><!-- #masthead -->
 
-	<aside class="widget__area">
+	<aside class="site__sidebar">
 
 	<div id="sidebar-nav-recherche">
 	<?php dynamic_sidebar( 'sidebar-nav-recherche' ); ?>
