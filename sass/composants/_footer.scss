@@ -13,6 +13,15 @@
   justify-content: space-evenly;
   background-color: $couleur_background-footer;
   align-items: center;
+  
+  @media screen and (max-width:700px) {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+   
+    
+    
+}
 }
 .site__footer div{
   margin-right: 20px;
@@ -23,10 +32,7 @@
   position: relative;
   object-fit:cover ;
 }
-.lien-footer{
- 
 
-}
 
 
 
@@ -47,4 +53,29 @@
 
 .menu li{
   margin-bottom: $espacement_mini;
+}
+
+.lienWidget {
+
+.sidebar{
+  .menu-pas-trop-uttile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
+
+    @media screen and (max-width:700px) {
+    display: flex; 
+    justify-content: space-evenly;
+   
+    
+    
+}
+}
+
+
+
 }

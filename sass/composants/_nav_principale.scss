@@ -4,22 +4,53 @@
     margin-right: $espacement_mini ;
     margin-bottom: $espacement_moyen;
     position: sticky; 
-    
+ 
 
     .menu{
         //ul
         list-style: none;
         display: flex;
         justify-content: space-around;
+
+   @media screen and (max-width:700px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+        
+   
+
+
     } 
+
+
+
     .menu-item{
+ @media screen and (max-width:700px) {
+           
+            margin:50px 0px 50px 0px;
+    
+    
+    
+            
+        }
+
+
         //li
     }   
     a{
         border-bottom: 1px solid $color__nav-a-underline;
         padding-bottom: $espacement_mini;
         color: $couleur_police-nav-h1;
+       
+  
+       
+
+
     }
+
+
        
     
 }

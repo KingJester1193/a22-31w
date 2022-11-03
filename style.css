@@ -590,6 +590,18 @@ figure {
   display: flex;
   justify-content: space-around;
 }
+@media screen and (max-width: 700px) {
+  .menu__principal .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .menu__principal .menu-item {
+    margin: 50px 0px 50px 0px;
+  }
+}
 .menu__principal a {
   border-bottom: 1px solid #691a8b;
   padding-bottom: 15px;
@@ -621,19 +633,28 @@ figure {
   border-radius: 20px;
   box-shadow: inset 0 0 20px #691a8b;
 }
+@media screen and (max-width: 700px) {
+  .menu__aside .menu {
+    margin-top: 100px;
+    width: 70%;
+  }
+}
 .menu__aside .menu li {
   margin-bottom: 15px;
   font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .widget_search {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .bar_recherche {
   margin-bottom: 15px;
   margin-left: 48px;
   background-color: purple;
-}
-
-.ytp-title-link {
-  margin-left: 48px;
 }
 
 .chk-burger:checked ~ .burger {
@@ -645,15 +666,17 @@ figure {
 }
 
 .burger {
-  position: absolute;
+  position: fixed;
+  overflow: hidden;
   font-size: 2.5rem;
   width: 3rem;
   height: 3rem;
-  top: 195px;
-  right: 70px;
+  top: 75px;
+  left: calc(100% - 100px);
   transform: rotate(0deg);
   transition: transform 0.6s;
   z-index: 100;
+  cursor: pointer;
 }
 @media screen and (min-width: 700px) {
   .burger {
@@ -665,6 +688,13 @@ figure {
   display: none;
 }
 
+@media screen and (max-width: 700px) {
+  .wp-block-embed__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .site__footer {
   position: sticky;
   display: flex;
@@ -672,6 +702,13 @@ figure {
   justify-content: space-evenly;
   background-color: #691a8b;
   align-items: center;
+}
+@media screen and (max-width: 700px) {
+  .site__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .site__footer div {
@@ -702,6 +739,18 @@ figure {
 
 .menu li {
   margin-bottom: 15px;
+}
+
+.lienWidget .sidebar .menu-pas-trop-uttile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 700px) {
+  .lienWidget .sidebar {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 .site__header {
