@@ -41,12 +41,16 @@
                             <a href="<?php the_permalink();?> "><?php the_title();?></a>
                         
                         </h2>
-                        <?php
-                        the_content(null, true);
-                   
+
+
+                        
+                   <p> <?php  echo wp_trim_words( get_the_excerpt(), 30,"...");    ?>   </p> 
+
+                   <?php  
                     endwhile;
-                endif;
-            ?>
+                    endif;
+                   ?> 
+            
         
     </main>
  </body>

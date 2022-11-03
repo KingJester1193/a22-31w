@@ -86,6 +86,9 @@ add_action( 'after_setup_theme', 'underscore_setup' );
         add_filter("wp_nav_menu_objects","igc31w_filtre_choix_menu", 10,2);
 
 
+          
+
+
 /////-------------------------- widget sidebar   ----------------------
         add_action( 'widgets_init', 'my_register_sidebars' );
 function my_register_sidebars() {
