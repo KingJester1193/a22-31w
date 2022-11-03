@@ -53,8 +53,9 @@
 	<div id="sidebar-nav-recherche">
 	<?php dynamic_sidebar( 'sidebar-nav-recherche' ); ?>
 	</div>
-
-
+					<input type="checkbox" name="chk-burger" id="chk-burger" class="chk-burger hidden">
+					<label for="chk-burger" class="burger
+					"> 	&#127829;</label>
 			<?php wp_nav_menu(array(
 				"menu"=> "aside",
 				"container" => "nav",
@@ -63,9 +64,12 @@
 			));
 			?>
 
-<div id="aside_video" >
-	<?php dynamic_sidebar( 'aside_video' ); ?>
-</div>
+
+
+
+			<div id="aside_video" >
+				<?php dynamic_sidebar( 'aside_video' ); ?>
+			</div>
 
 
 
