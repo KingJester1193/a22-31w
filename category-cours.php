@@ -31,6 +31,9 @@
  </head>
  <body>
     <main class="site__main">
+        <section class="liste">
+
+
       
             <?php
                 if ( have_posts() ) : 
@@ -38,19 +41,19 @@
                     while ( have_posts() ) :
                         the_post();?>
                         <h2>
+                        </h2>
                             <a href="<?php the_permalink();?> "><?php the_title();?></a>
                             <h4>dure du cours: <?php  the_field('duree')?> heures </h4>
                             <h4>Nom: <?php  the_field('professeur')?></h4>
                             <h4>Cour offert le :  <?php  the_field('periode')?></h4>
             
-                        </h2>
                         <?php
                         the_content(null, true);
                    
                     endwhile;
                 endif;
             ?>
-        
+                </section>
     </main>
  </body>
 

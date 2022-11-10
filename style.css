@@ -773,6 +773,26 @@ figure {
   width: 25%;
 }
 
+.menu__evenement .menu-item a {
+  text-decoration: none;
+}
+
+.menu__item__icone {
+  width: 50px;
+  height: 50px;
+  border: #691a8b 1px solid;
+}
+
+.liste {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.liste_cours {
+  flex: 0 1 20%;
+}
+
 .site__header {
   grid-area: header;
 }

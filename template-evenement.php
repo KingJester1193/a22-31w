@@ -8,12 +8,13 @@
 ?>
  
 <?php get_header() ?>
+
 <main>
  
-    <h1>---- Template Evenement ------</h1>
    <?php if (have_posts()): the_post(); ?>
-        <?php the_title() ?>
-        <?php the_content() ?>        
+        <?php "<h1>" . the_title() . "</h1>" ?>
+        <?php the_content() ?>
+         <p>venez nous rejoindre  au <?php the_field("adresse"); ?> </p>            
    <?php endif ?>
 </main>
 <?php get_footer() ?>
