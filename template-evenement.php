@@ -12,9 +12,10 @@
 <main>
  
    <?php if (have_posts()): the_post(); ?>
-        <?php "<h1>" . the_title() . "</h1>" ?>
+      <h1>  <?php the_title() ?> </h1> 
         <?php the_content() ?>
-         <p>venez nous rejoindre  au <?php the_field("adresse"); ?> </p>            
+         <p>venez nous rejoindre  au : <br> <?php the_field("adresse"); ?> </p>  
+         <p>rendez-vous a : <br><?php the_field("date-heure"); ?> </p>               
    <?php endif ?>
 </main>
 <?php get_footer() ?>

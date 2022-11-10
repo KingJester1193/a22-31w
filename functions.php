@@ -175,7 +175,7 @@ add_filter( 'walker_nav_menu_start_el', 'prefix_nav_description', 10, 2 );
 
 function igc_31w_filtre_requete( $query ) {
 	if ( $query->is_home() && $query->is_main_query() && ! is_admin() ) {
-	$query->set( 'category_name', 'acceuil' );
+	$query->set( 'category_name', 'accueil' );
 	}
 	}
 	add_action( 'pre_get_posts', 'igc_31w_filtre_requete' ); 
