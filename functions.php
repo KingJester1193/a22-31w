@@ -164,7 +164,7 @@ function my_register_sidebars() {
 function prefix_nav_description( $item_output, $item) {
     if ( !empty( $item->description ) ) {
         $item_output = str_replace( '</a>',
-        '<hr><span class="menu__item__description">' . $item->description . '</span><div class="menu__item__icone"></div></a>',
+        '<hr><span class="menu__item__description">' . $item->description . '</span><div class="menu__item__icone"><svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg></div></a>',
               $item_output );
     }
     return $item_output;

@@ -6,49 +6,67 @@
 }
 
 .menu__evenement .menu{
+   
     list-style-type: none;
     display: flex; 
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
     
 
 }
 
 .menu__evenement .menu-item{
-
-    width: 25% ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20% ;
+   
 }
 .menu__evenement .menu-item a{
+    font-size: $police_taille-text ;
 
     text-decoration: none;
 
-
-
 }
-.menu__evenement .menu-item a:hover{
+.menu__evenement .menu-item:hover polyline, 
+.menu__evenement .menu-item:hover line {
+
+   stroke:  $color__link-hover ;
+}
+
+
+
+
+
+
+.menu__item__icone svg{
+    width: 50px;
+    height: 50px;
+    align-self: flex-end;
+
+    polyline, line{
+        stroke:white  ; 
+        transition: none;
+    }
+   transition: stroke 0.6s;
+}
+
+.menu__item__icone :hover{
+
+
+    polyline, line{
+        stroke:  $color__link-hover ;
+    }
    
 }
 
 
 
-
-.evenement__porte{
- 
+hr{
+    margin:$espacement_mini 0px ;
 }
-.evenement__projet{
-    
+.menu__item__description{
+    margin-bottom: $espacement_mini;
+    color: whitesmoke;
+    font-size:  $police__sous-titre;
 }
-.evenement__stage{}
-
-
-.menu__item__icone{
-    width: 50px;
-    height: 50px;
-    border: #691a8b 1px solid;
-}
-
-.evenement__porte .menu__item__icone{
- 
-}
-.evenement__projet .menu__item__icone{
-    
-}
-.evenement__stage .menu__item__icone{}
