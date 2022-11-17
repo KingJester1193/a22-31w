@@ -50,9 +50,13 @@
                         
                         </h2>
 
+                        <?php if( has_post_thumbnail()){
+                                the_post_thumbnail("thumbnail");}?>
+
 
                         
                    <p> <?php  echo wp_trim_words( get_the_excerpt(), 30,"...");    ?>   </p> 
+                   
 
                    <?php  
                     endwhile;

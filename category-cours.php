@@ -31,28 +31,28 @@
  </head>
  <body>
     <main class="site__main">
-        <section class="liste">
+        <section class="grid_cours">
 
 
-      
             <?php
                 if ( have_posts() ) : 
                 /* Start the Loop */
                     while ( have_posts() ) :
                         the_post();?>
+                        <article class="liste_cours">
                         <h2>
+                            <a href="<?php the_permalink();?> "><?php $title = the_title('','',FALSE); echo substr($title, 8, -6); ?></a></h2> </a>
                         </h2>
-                            <a href="<?php the_permalink();?> "><?php the_title();?></a>
+                            
                             <h4>dure du cours: <?php  the_field('duree')?> heures </h4>
                             <h4>Nom: <?php  the_field('professeur')?></h4>
                             <h4>Cour offert le :  <?php  the_field('periode')?></h4>
-            
-                        <?php
-                        the_content(null, true);
-                   
+                            <p><?php  echo wp_trim_words( get_the_excerpt(), 30,"...");    ?></p>
+                       </article> <?php
+
                     endwhile;
                 endif;
-            ?>
+            ?>  
                 </section>
     </main>
  </body>

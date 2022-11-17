@@ -33,6 +33,7 @@
 <div id="page" class="site">
 	<header id="masthead" class="site__header">
 		<div class="site-branding">
+			<?= get_custom_logo();?>
 <!-- 
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>

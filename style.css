@@ -813,14 +813,14 @@ hr {
   font-size: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.liste {
+.grid_cours {
   display: flex;
-  justify-content: space-between;
+  gap: 15px;
   flex-wrap: wrap;
 }
 
 .liste_cours {
-  flex: 0 1 20%;
+  flex: 0 1 calc(50% - 15px);
 }
 
 .site__header {
