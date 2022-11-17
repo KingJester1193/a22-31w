@@ -23,6 +23,7 @@
 <body <?php body_class(); ?>>
 <nav class="menu__principal">
 	<?= get_custom_logo();?>
+	<img src="" alt="" style="width:150px; height:150px; border:1px solid black;">
 	<?php wp_nav_menu(array(
 		"menu" => "principal",
 		"container" => "",

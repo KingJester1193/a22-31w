@@ -45,6 +45,7 @@
                 /* Start the Loop */
                     while ( have_posts() ) :
                         the_post();?>
+                        <article class="articleAcceuil">
                         <h2>
                             <a href="<?php the_permalink();?> "><?php $title = the_title('','',FALSE); echo substr($title, 8, -6); ?></a>
                         
@@ -56,7 +57,7 @@
 
                         
                    <p> <?php  echo wp_trim_words( get_the_excerpt(), 30,"...");    ?>   </p> 
-                   
+                   </article>
 
                    <?php  
                     endwhile;

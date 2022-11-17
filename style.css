@@ -586,12 +586,18 @@ figure {
   position: sticky;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .menu__principal .menu {
   list-style: none;
   display: flex;
   justify-content: space-around;
+}
+.menu__principal .menu li {
+  margin-left: 30px;
 }
 @media screen and (max-width: 1080px) {
   .menu__principal .menu {
@@ -765,6 +771,7 @@ figure {
   background-color: #5c8162;
   border-radius: 20px;
   box-shadow: inset 0 0 20px #691a8b;
+  margin-bottom: 120px;
 }
 
 .menu__evenement .menu {
@@ -818,12 +825,24 @@ hr {
 
 .grid_cours {
   display: flex;
-  gap: 15px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
 .liste_cours {
-  flex: 0 1 calc(50% - 15px);
+  flex: 0 1 calc(50% - 30px);
+  border-bottom: 2px solid #f6976a;
+  margin-bottom: 30px;
+}
+.liste_cours h2 {
+  border-left: 2px solid #691a8b;
+  padding-left: 15px;
+}
+
+.articleAcceuil {
+  margin-bottom: 70px;
+  border-bottom: 2px solid #f6976a;
+  width: 75%;
 }
 
 .site__header {
