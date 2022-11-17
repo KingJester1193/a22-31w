@@ -46,7 +46,7 @@
                     while ( have_posts() ) :
                         the_post();?>
                         <h2>
-                            <a href="<?php the_permalink();?> "><?php the_title();?></a>
+                            <a href="<?php the_permalink();?> "><?php $title = the_title('','',FALSE); echo substr($title, 8, -6); ?></a>
                         
                         </h2>
 

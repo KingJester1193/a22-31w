@@ -584,13 +584,16 @@ figure {
   margin-right: 15px;
   margin-bottom: 80px;
   position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .menu__principal .menu {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1080px) {
   .menu__principal .menu {
     display: flex;
     flex-direction: column;

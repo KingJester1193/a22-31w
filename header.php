@@ -21,23 +21,27 @@
 </head>
 
 <body <?php body_class(); ?>>
+<nav class="menu__principal">
+	<?= get_custom_logo();?>
+	<?php wp_nav_menu(array(
+		"menu" => "principal",
+		"container" => "",
+		"container_class" => ""));
+	?>
+</nav>
 
-<?php wp_nav_menu(array(
-	"menu" => "principal",
-	 "container" => "nav",
-	"container_class" => "menu__principal"));
-?>
 
 
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<header id="masthead" class="site__header">
 		<div class="site-branding">
-			<?= get_custom_logo();?>
-<!-- 
+
+			
+		
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			</h1> -->
+			</h1>
 
 			<?php
 				$underscore_description = get_bloginfo( 'description', 'display' );
