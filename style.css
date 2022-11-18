@@ -616,6 +616,9 @@ figure {
   padding-bottom: 15px;
   color: #bf6e3f;
 }
+.menu__principal .custom-logo-link {
+  border: none;
+}
 
 .menu__aside {
   display: flex;
