@@ -18,12 +18,12 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
+	<style>.site__header { background-color:<?= get_theme_mod("site__title__background"); ?>;}</style>
 </head>
 
 <body <?php body_class(); ?>>
 <nav class="menu__principal">
 	<?= get_custom_logo();?>
-	<img src="" alt="" style="width:150px; height:150px; border:1px solid black;">
 	<?php wp_nav_menu(array(
 		"menu" => "principal",
 		"container" => "",
@@ -54,6 +54,8 @@
 		
 	</header><!-- #masthead -->
 
+
+
 	<aside class="site__sidebar">
 
 	<div id="sidebar-nav-recherche">
@@ -66,24 +68,10 @@
 				"menu"=> "aside",
 				"container" => "nav",
 				"container_class" => "menu__aside"
-
 			));
 			?>
-
-
-
-
 			<div id="aside_video" >
 				<?php dynamic_sidebar( 'aside_video' ); ?>
 			</div>
-
-
-
-
-
-
-
-
-
 
 	</aside>

@@ -11,6 +11,8 @@ if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
 	define( '_S_VERSION', '1.0.0' );
 }
+//inclusion customizer de backgroud-color----------------
+require_once("options/apparence.php");
 
 function underscore_setup() {
 

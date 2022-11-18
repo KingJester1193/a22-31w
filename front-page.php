@@ -55,7 +55,24 @@
                                 the_post_thumbnail("thumbnail");}?>
 
 
-                        
+                      <?php
+                      $monTableau = get_the_category();
+                     // var_dump($monTableau);
+                     $boolGallerie= false;
+                      foreach($monTableau as $key){
+
+                        if($key->slug == "gallerie"){
+                            $boolGallerie = true;
+                        };
+                      } 
+
+                      if($boolGallerie == true){
+                        the_content();
+                      }else{
+                        echo wp_trim_words( get_the_excerpt(), 30,"..."); 
+
+                      } ?> 
+                    
                    <p> <?php  echo wp_trim_words( get_the_excerpt(), 30,"...");    ?>   </p> 
                    </article>
 
