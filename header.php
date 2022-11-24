@@ -30,8 +30,12 @@
 		"container" => "",
 		"container_class" => ""));
 	?>
-</nav>
 
+
+</nav>
+	<div id="sidebar-nav-recherche" class="sidebar-nav-recherche">
+	<?php dynamic_sidebar( 'sidebar-nav-recherche' ); ?>
+	</div>
 
 
 <?php wp_body_open(); ?>
@@ -59,9 +63,7 @@
 
 	<aside class="site__sidebar">
 
-	<div id="sidebar-nav-recherche">
-	<?php dynamic_sidebar( 'sidebar-nav-recherche' ); ?>
-	</div>
+
 					<input type="checkbox" name="chk-burger" id="chk-burger" class="chk-burger hidden">
 					<label for="chk-burger" class="burger
 					"> 	&#127829;</label>

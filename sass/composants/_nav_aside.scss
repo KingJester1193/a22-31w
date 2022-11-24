@@ -54,8 +54,17 @@
     }
           
 }
+
+.sidebar-nav-recherche{
+     display: flex;
+    justify-content: flex-end;
+    
+}
 .widget_search{
     margin-top: $espacement_moyen ;
+    margin-right: $espacement_moyen ;
+   
+
 }
 
 .widget_search{
