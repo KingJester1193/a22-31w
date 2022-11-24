@@ -671,21 +671,30 @@ figure {
   font-size: 18px;
 }
 
+.nav_icone {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+}
+@media screen and (max-width: 1080px) {
+  .nav_icone {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .sidebar-nav-recherche {
   display: flex;
   justify-content: flex-end;
 }
-
-.widget_search {
-  margin-top: 80px;
-  margin-right: 80px;
+@media screen and (max-width: 1080px) {
+  .sidebar-nav-recherche {
+    display: block;
+  }
 }
 
-@media screen and (max-width: 700px) {
-  .widget_search {
-    display: flex;
-    justify-content: center;
-  }
+.widget_search {
+  margin-right: 80px;
 }
 
 .bar_recherche {

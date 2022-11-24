@@ -162,6 +162,19 @@ function my_register_sidebars() {
 		)
 	);
 
+	
+    register_sidebar(
+		array(
+			'id'            => 'nav_icone',
+			'name'          => __( 'nav_icone' ),
+			'description'   => __( 'icone  social nv.' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
+
 
 
 	/* ----------------------------------------------------------- Ajout de la description dans menu */

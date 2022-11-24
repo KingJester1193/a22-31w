@@ -33,9 +33,17 @@
 
 
 </nav>
+
+
 	<div id="sidebar-nav-recherche" class="sidebar-nav-recherche">
 	<?php dynamic_sidebar( 'sidebar-nav-recherche' ); ?>
 	</div>
+
+
+			<div id="nav_icone" class="nav_icone" >
+				<?php dynamic_sidebar( 'nav_icone' ); ?>
+			</div>
+
 
 
 <?php wp_body_open(); ?>
@@ -73,8 +81,5 @@
 				"container_class" => "menu__aside"
 			));
 			?>
-			<div id="aside_video" >
-				<?php dynamic_sidebar( 'aside_video' ); ?>
-			</div>
-
+			
 	</aside>
