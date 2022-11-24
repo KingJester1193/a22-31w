@@ -19,7 +19,7 @@ get_header();
 					
 					<?php
 					/* translators: %s: search query. */
-					printf( esc_html__( 'Resultat de recherche pour : %s', 'a22-31w' ), '<span>' . get_search_query() . '</span>' );
+					printf( esc_html__( 'Resultat de recherche pour : %s', 'a22-31w' ), get_search_query());
 					?>
 				</h1>
 		
