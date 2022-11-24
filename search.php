@@ -16,11 +16,13 @@ get_header();
 
 			<header class="page-header">
 				<h1 class="page-title">
+					
 					<?php
 					/* translators: %s: search query. */
-					printf( esc_html__( 'Search Results for: %s', 'a22-31w' ), '<span>' . get_search_query() . '</span>' );
+					printf( esc_html__( 'Resultat de recherche pour : %s', 'a22-31w' ), '<span>' . get_search_query() . '</span>' );
 					?>
 				</h1>
+		
 			</header><!-- .page-header -->
 
 			<?php
@@ -45,9 +47,11 @@ get_header();
 
 		endif;
 		?>
+				<h4><?php global $wp_query;
+					echo $wp_query->found_posts.' Resultat trouver.';?></h4>
 
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
+
 get_footer();
